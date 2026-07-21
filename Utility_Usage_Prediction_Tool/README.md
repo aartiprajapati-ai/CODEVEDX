@@ -1,29 +1,38 @@
 # ⚡ Utility Usage Prediction Tool
 
-A Machine Learning project that predicts household electricity usage using Linear Regression.
+A Machine Learning project that predicts household electricity usage using **Linear Regression**.
 
 ---
 
-# 📌 Project Overview
+## 📌 Project Overview
 
-The Utility Usage Prediction Tool is a Machine Learning project that predicts household electricity consumption based on electrical measurements such as Voltage and Global Intensity.
+The **Utility Usage Prediction Tool** is a Machine Learning project developed using **Python** and **Scikit-learn**. The model predicts household electricity consumption based on electrical parameters such as **Voltage** and **Global Intensity**.
 
-The project demonstrates the complete Machine Learning workflow, including data preprocessing, model training, evaluation, and prediction.
+This project demonstrates the complete Machine Learning workflow, including:
+
+- Data Loading
+- Data Cleaning
+- Feature Selection
+- Model Training
+- Model Evaluation
+- Prediction
+- Model Saving
 
 ---
 
-# 🚀 Features
+## 🚀 Features
 
 - Console-based application
-- Data preprocessing
+- Data preprocessing and cleaning
 - Machine Learning prediction
 - Linear Regression model
 - Model saving using Joblib
 - Exception handling
+- Easy-to-use interface
 
 ---
 
-# 🛠 Technologies Used
+## 🛠 Technologies Used
 
 - Python
 - Pandas
@@ -33,9 +42,9 @@ The project demonstrates the complete Machine Learning workflow, including data 
 
 ---
 
-# 📂 Project Structure
+## 📂 Project Structure
 
-```
+```text
 Utility_Usage_Prediction_Tool
 │
 ├── dataset/
@@ -55,40 +64,28 @@ Utility_Usage_Prediction_Tool
 
 ---
 
-# 📊 Machine Learning Workflow
+## 📊 Machine Learning Workflow
 
-- Load Dataset
-- Data Cleaning
-- Feature Selection
-- Train-Test Split
-- Train Linear Regression Model
-- Evaluate Model
-- Save Trained Model
-- Predict Utility Usage
-
----
-
-# 🤖 Machine Learning Algorithm
-
-- Linear Regression
+1. Load Dataset
+2. Data Cleaning
+3. Feature Selection
+4. Train-Test Split
+5. Train Linear Regression Model
+6. Evaluate Model
+7. Save Trained Model
+8. Predict Utility Usage
 
 ---
 
-# ▶️ Installation
+## 🤖 Machine Learning Algorithm
 
-Clone the repository
+**Linear Regression**
 
-```bash
-git clone https://github.com/aartiprajapati-ai/CODEVEDX.git
-```
+---
 
-Go to project folder
+## ▶️ Requirements
 
-```bash
-cd Utility_Usage_Prediction_Tool
-```
-
-Install required libraries
+Install the required libraries:
 
 ```bash
 pip install -r requirements.txt
@@ -96,7 +93,9 @@ pip install -r requirements.txt
 
 ---
 
-# ▶️ Train the Model
+## ▶️ Train the Model
+
+Run the following command:
 
 ```bash
 python train_model.py
@@ -104,7 +103,9 @@ python train_model.py
 
 ---
 
-# ▶️ Run the Application
+## ▶️ Run the Application
+
+Execute the application:
 
 ```bash
 python app.py
@@ -112,67 +113,66 @@ python app.py
 
 ---
 
-# 📸 Screenshots
+## 📸 Screenshots
 
-## 📁 Project Structure
+### 📁 Project Structure
 
 ![Project Structure](screenshots/folder_structure.png)
 
 ---
 
-## 📊 Dataset Preview
+### 📊 Dataset Preview
 
 ![Dataset Preview](screenshots/dataset_preview.png)
 
 ---
 
-## 🤖 Model Training
+### 🤖 Model Training
 
 ![Model Training](screenshots/model_training.png)
 
 ---
 
-## ⚡ Prediction Output
+### ⚡ Prediction Output
 
 ![Prediction Output](screenshots/prediction_output.png)
 
 ---
 
-# 📁 Dataset
+## 📁 Dataset
 
 The original dataset is larger than GitHub's file size limit (100 MB), so it is **not included** in this repository.
 
-You can download it from the **UCI Machine Learning Repository** and place it in the following directory:
+Download the dataset from the **UCI Machine Learning Repository** and place it inside:
 
-```
-Utility_Usage_Prediction_Tool/dataset/
-```
-
-Dataset Name:
-
-```
-household_power_consumption.txt
+```text
+Utility_Usage_Prediction_Tool/
+└── dataset/
+    └── household_power_consumption.txt
 ```
 
 ---
 
-# 📌 Future Improvements
+## 📈 Future Improvements
 
 - Streamlit Web Application
 - Interactive Dashboard
 - Better Prediction Accuracy
-- More Machine Learning Algorithms
+- Support for Multiple Machine Learning Algorithms
+- Interactive Data Visualization
 
 ---
 
-# 👩‍💻 Author
+## 👩‍💻 Author
 
 **Aarti Prajapati**
 
-B.Tech CSE (Artificial Intelligence & Machine Learning)
+**B.Tech – Computer Science & Engineering (Artificial Intelligence & Machine Learning)**
 
-IIMT University, Meerut
+**IIMT University, Meerut**
 
 ---
 
-# ⭐ If you like this project, don't forget to give it a Star on GitHub!
+## ⭐ Acknowledgement
+
+This project was developed as part of an **AI/ML Internship** to demonstrate the implementation of Machine Learning techniques for utility usage prediction.
