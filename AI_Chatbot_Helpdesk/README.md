@@ -1,32 +1,37 @@
 # 🤖 AI Chatbot for Internal Helpdesk
 
-A Machine Learning and Flask-based chatbot that answers common employee queries using Natural Language Processing (NLP) and Machine Learning.
+An AI-powered FAQ chatbot built using **Natural Language Processing (NLP)**, **Machine Learning**, and **Flask**. The chatbot understands user queries and provides relevant responses based on a trained FAQ dataset.
 
 ---
 
-## 📌 Project Overview 
+## 📌 Project Overview
 
-The **AI Chatbot for Internal Helpdesk** is designed to assist employees by providing instant answers to frequently asked questions (FAQs). The chatbot uses **TF-IDF Vectorization** and a **Logistic Regression** model to understand user queries and return the most relevant response.
+The **AI Chatbot for Internal Helpdesk** is designed to answer frequently asked employee questions such as office timings, leave requests, password reset, attendance, and HR-related queries.
 
-This project demonstrates the complete workflow of building an NLP-based chatbot, from data preparation to deploying a web application using Flask.
+The project demonstrates the complete workflow of building an NLP-based chatbot, including:
+
+- Dataset creation
+- Text preprocessing
+- Feature extraction using TF-IDF
+- Machine Learning model training
+- Flask web application deployment
 
 ---
 
-## 🚀 Features
+## ✨ Features
 
 - 🤖 AI-powered FAQ Chatbot
 - 💬 Instant response to employee queries
-- 📝 FAQ Dataset
-- 🔍 NLP Text Processing
-- 📊 TF-IDF Vectorization
-- 🧠 Logistic Regression Model
-- 🌐 Flask Web Application
-- 💾 Model Saving using Joblib
-- ⚠️ Exception Handling
+- 📚 FAQ dataset support
+- 🔍 TF-IDF text vectorization
+- 🧠 Logistic Regression model
+- 🌐 Flask-based web interface
+- 💾 Model saving using Joblib
+- 🎯 Simple and user-friendly interface
 
 ---
 
-## 🛠 Technologies Used
+## 🛠️ Technologies Used
 
 - Python
 - Flask
@@ -40,22 +45,19 @@ This project demonstrates the complete workflow of building an NLP-based chatbot
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
-```
+```text
 AI_Chatbot_Helpdesk
 │
-├── dataset
+├── dataset/
 │   └── faq_dataset.csv
 │
-├── model
+├── model/
 │   ├── chatbot_model.pkl
 │   └── vectorizer.pkl
 │
-├── templates
-│   └── index.html
-│
-├── screenshots
+├── screenshots/
 │   ├── home_page.png
 │   ├── password_reset_response.png
 │   ├── office_timings_response.png
@@ -63,6 +65,9 @@ AI_Chatbot_Helpdesk
 │   ├── project_structure.png
 │   ├── training_model.png
 │   └── flask_running_terminal.png
+│
+├── templates/
+│   └── index.html
 │
 ├── app.py
 ├── train_model.py
@@ -72,26 +77,29 @@ AI_Chatbot_Helpdesk
 
 ---
 
-## 📊 Machine Learning Workflow
+# 📊 Machine Learning Workflow
 
-- Create FAQ Dataset
-- Data Preprocessing
-- TF-IDF Feature Extraction
-- Train Logistic Regression Model
-- Save Model using Joblib
-- Load Model in Flask
-- User Query Prediction
-- Display Chatbot Response
-
----
-
-## 🤖 Machine Learning Algorithm
-
-- Logistic Regression
+1. Create FAQ Dataset
+2. Load Dataset using Pandas
+3. Text Preprocessing
+4. TF-IDF Feature Extraction
+5. Train Logistic Regression Model
+6. Save Model & Vectorizer
+7. Load Model in Flask
+8. Predict User Query
+9. Display Chatbot Response
 
 ---
 
-## ▶️ Installation
+# 🤖 Machine Learning Algorithm
+
+**Logistic Regression**
+
+The chatbot converts user questions into numerical vectors using **TF-IDF Vectorization** and predicts the most relevant response using a trained Logistic Regression model.
+
+---
+
+# ▶️ Installation
 
 ### Clone the repository
 
@@ -99,13 +107,13 @@ AI_Chatbot_Helpdesk
 git clone https://github.com/aartiprajapati-ai/CODEVEDX.git
 ```
 
-### Go to the project folder
+### Navigate to the project folder
 
 ```bash
 cd AI_Chatbot_Helpdesk
 ```
 
-### Install required libraries
+### Install dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -113,7 +121,7 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ Train the Model
+# ▶️ Train the Model
 
 ```bash
 python train_model.py
@@ -121,7 +129,7 @@ python train_model.py
 
 ---
 
-## ▶️ Run the Application
+# ▶️ Run the Application
 
 ```bash
 python app.py
@@ -135,63 +143,74 @@ http://127.0.0.1:5000
 
 ---
 
-## 📸 Screenshots
+# 📸 Screenshots
 
-### 🏠 Home Page
+## 🏠 Home Page
 
 ![Home Page](screenshots/home_page.png)
 
 ---
 
-### 🔐 Password Reset Response
+## 🔐 Password Reset Response
 
-![Password Reset](screenshots/password_reset_response.png)
-
----
-
-### 🕒 Office Timings Response
-
-![Office Timings](screenshots/office_timings_response.png)
+![Password Reset Response](screenshots/password_reset_response.png)
 
 ---
 
-### 📝 Leave Request Response
+## 🕒 Office Timings Response
 
-![Leave Request](screenshots/leave_request_response.png)
+![Office Timings Response](screenshots/office_timings_response.png)
 
 ---
 
-### 📂 Project Structure
+## 📝 Leave Request Response
+
+![Leave Request Response](screenshots/leave_request_response.png)
+
+---
+
+## 📂 Project Structure
 
 ![Project Structure](screenshots/project_structure.png)
 
 ---
 
-### 🧠 Model Training
+## 🧠 Model Training
 
-![Training Model](screenshots/training_model.png)
-
----
-
-## 📌 Future Improvements
-
-- Voice-based Chatbot
-- Database Integration
-- User Authentication
-- Admin Panel
-- Multi-language Support
-- AI-powered Intent Recognition
+![Model Training](screenshots/training_model.png)
 
 ---
 
-## 👩‍💻 Author
+## 💻 Flask Application Running
+
+![Flask Running](screenshots/flask_running_terminal.png)
+
+---
+
+# 📌 Future Improvements
+
+- Voice-enabled chatbot
+- Database integration
+- User authentication
+- Admin dashboard
+- Multi-language support
+- Advanced intent recognition using Deep Learning
+- Integration with company knowledge base
+
+---
+
+# 👩‍💻 Author
 
 **Aarti Prajapati**
 
-B.Tech CSE (Artificial Intelligence & Machine Learning)
+**B.Tech – Computer Science & Engineering (Artificial Intelligence & Machine Learning)**
 
-IIMT University, Meerut
+**IIMT University, Meerut, Uttar Pradesh**
 
 ---
 
-⭐ If you like this project, don't forget to give it a Star on GitHub!
+## ⭐ Support
+
+If you found this project helpful, consider giving it a **⭐ Star** on GitHub.
+
+Thank you for visiting this repository!
