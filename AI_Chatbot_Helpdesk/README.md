@@ -4,7 +4,7 @@ A Machine Learning and Flask-based chatbot that answers common employee queries 
 
 ---
 
-## 📌 Project Overview
+## 📌 Project Overview 
 
 The **AI Chatbot for Internal Helpdesk** is designed to assist employees by providing instant answers to frequently asked questions (FAQs). The chatbot uses **TF-IDF Vectorization** and a **Logistic Regression** model to understand user queries and return the most relevant response.
 
